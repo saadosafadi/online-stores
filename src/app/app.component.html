@@ -1,0 +1,27 @@
+<router-outlet></router-outlet>
+<div class="ui vertical footer segment noprint">
+    <div class="ui center aligned container">
+      <div class="ui stackable inverted divided grid">
+        <div class="column">
+          <p></p>
+          <div class="ui horizontal inverted small divided list">
+              <div class="item">
+                  <i class="truck icon"></i>&nbsp;&nbsp;
+                  {{ordersCount}} Orders made on our site.
+                </div>
+            <div class="item">
+              <i class="shopping cart icon"></i>&nbsp;&nbsp;
+              {{productsCount}}  Quantity of products in the shopping cart
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui section divider"></div>
+      <div class="ui horizontal medium divided link list">
+        <div class="item">
+          <img src="assets/images/logo.png" class="ui mini image">&nbsp;&nbsp;
+        </div>
+        <div class="item header" style="color: #68b0ab;">© 2020 Online Store</div>
+      </div>
+    </div>
+  </div>

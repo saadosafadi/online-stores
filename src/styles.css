@@ -1,0 +1,28 @@
+body {
+    background: #ecf4f3;
+    font-family: 'Gentium Book Basic', Georgia, 'Times New Roman', Times, serif;
+    color: #006a71;
+}
+
+button {
+    margin: 5px;
+    background-color: #006a71 !important;
+    color: white !important;
+}
+
+button:hover {
+    background-color: #ff7e67 !important;
+    color: #006a71 !important;
+}
+
+.card {
+    margin: 10px;
+}
+
+.txt-color {
+    color: #006a71 !important;
+}
+
+.txt-sub-color {
+    color: #68b0ab !important;
+}

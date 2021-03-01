@@ -1,0 +1,9 @@
+.ui.submit.button.fluid {
+    background-color: #006a71;
+    color: white;
+}
+
+.ui.submit.button.fluid:hover {
+    background-color: #ff7e67;
+    color: #006a71;
+}

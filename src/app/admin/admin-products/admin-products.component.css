@@ -1,0 +1,7 @@
+.ui.table thead th {
+    color: #006a71;
+}
+
+.ui.selectable.table tbody tr:hover, .ui.table tbody tr td.selectable:hover {
+    background-color: #ff7e67 !important;
+}
